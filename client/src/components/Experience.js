@@ -13,7 +13,10 @@ export const Experience = () => {
           <div className="about-containers">
             <div className="details-containers">
               <h2 className="exp-sub-title">Frontend Development</h2>
-              <div className="article-container">
+              <div
+                className="article-container"
+                style={{ overflowY: "auto", maxHeight: "300px" }}
+              >
                 {frontendSkills.map((skill) => {
                   return (
                     <Skill
@@ -24,10 +27,15 @@ export const Experience = () => {
                 })}
               </div>
             </div>
+
+        
             <div className="details-containers">
               <h2 className="exp-sub-title">Backend Development</h2>
-              <div className="article-container">
-                {backendSkills  .map((skill) => {
+              <div
+                className="article-container"
+                style={{ overflowY: "auto", maxHeight: "300px" }}
+              >
+                {backendSkills.map((skill) => {
                   return (
                     <Skill
                       skillName={skill.skillName}

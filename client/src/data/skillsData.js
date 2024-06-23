@@ -27,6 +27,10 @@ const frontendSkills = [
     skillName: "Chakra UI",
     level: "Intermediate",
   },
+  {
+    skillName: "TailWind CSS",
+    level: "Intermediate",
+  },
 ];
 
 const backendSkills = [
@@ -41,6 +45,10 @@ const backendSkills = [
   {
     skillName: "Express",
     level: "Experienced",
+  },
+  {
+    skillName: "AWS",
+    level: "Intermediate",
   },
   {
     skillName: "MONGO DB",

@@ -1,5 +1,5 @@
 import React from "react";
-import aboutPic from "../assets/about-pic.png";
+import aboutPic from "../assets/purvesh2.png";
 import experience from "../assets/experience.png";
 import education from "../assets/education.png";
 import arrow from "../assets/arrow.png";

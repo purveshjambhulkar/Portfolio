@@ -4,6 +4,8 @@ import resume_Pdf from "../assets/RESUME.pdf";
 import linkedIn from "../assets/linkedin.png";
 import github from "../assets/github.png";
 
+import aboutPic from "../assets/purvesh2.png";
+
 const Profile = () => {
   return (
     <>
