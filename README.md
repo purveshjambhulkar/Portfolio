@@ -4,7 +4,7 @@ A responsive portfolio website built with React.js, showcasing projects and skil
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-portfolio-url.com)
+[View Live Demo]([https://your-portfolio-url.com](https://portfolio-purveshjambhulkars-projects.vercel.app/))
 
 ## 🛠️ Technologies Used
 
