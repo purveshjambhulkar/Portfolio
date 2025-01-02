@@ -60,7 +60,7 @@ const Projects = () => {
         <div className="btn-container">
           <button
             className="btn btn-color-2 project-btn"
-            onClick={() => window.open("https://github.com/yourusername", "_blank")}
+            onClick={() => window.open("https://github.com/purveshjambhulkar", "_blank")}
           >
             Click to Explore All Projects
           </button>
