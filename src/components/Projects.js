@@ -11,22 +11,63 @@ const Projects = () => {
         <h1 className="title">Projects</h1>
         <div className="exp-details-container">
           <div className="about-containers">
-            {projectsData.map((project) => {
+            {projectsData.slice(0, 3).map((project) => {
               return (
                 <Project
+                  key={project.projectName}
                   projectName={project.projectName}
                   img={project.img}
                   githubLink={project.githubLink}
                   liveDemo={project.liveDemo}
                   imgDescription={project.imgDescription}
-                ></Project>
+                />
               );
             })}
           </div>
         </div>
+        <div className="exp-details-container">
+          <div className="about-containers">
+            {projectsData.slice(3, 6).map((project) => {
+              return (
+                <Project
+                  key={project.projectName}
+                  projectName={project.projectName}
+                  img={project.img}
+                  githubLink={project.githubLink}
+                  liveDemo={project.liveDemo}
+                  imgDescription={project.imgDescription}
+                />
+              );
+            })}
+          </div>
+        </div>
+        <div className="exp-details-container">
+          <div className="about-containers">
+            {projectsData.slice(6, 9).map((project) => {
+              return (
+                <Project
+                  key={project.projectName}
+                  projectName={project.projectName}
+                  img={project.img}
+                  githubLink={project.githubLink}
+                  liveDemo={project.liveDemo}
+                  imgDescription={project.imgDescription}
+                />
+              );
+            })}
+          </div>
+        </div>
+        <div className="btn-container">
+          <button
+            className="btn btn-color-2 project-btn"
+            onClick={() => window.open("https://github.com/yourusername", "_blank")}
+          >
+            Click to Explore All Projects
+          </button>
+        </div>
         <img
-          src={`${arrow}`}
-          alt="arrow image "
+          src={arrow}
+          alt="arrow image"
           className="icon arrow"
           onClick={() => {
             window.location.href = "#contact";
