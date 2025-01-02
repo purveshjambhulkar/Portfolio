@@ -296,6 +296,16 @@ section {
 }
 
 /* experience sections */
+
+.section__description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 10px;
+  text-align: center; /* Centers the text */
+  margin: 0 auto; /* Ensures it's centered horizontally */
+  max-width: 800px; /* Optional: restricts the width for better readability */
+}
+
 #experience {
   position: relative;
 }

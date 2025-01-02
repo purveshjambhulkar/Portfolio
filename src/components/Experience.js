@@ -9,6 +9,9 @@ export const Experience = () => {
       <section id="experience">
         <p className="section__text__p1">Explore My</p>
         <h1 className="title">Skills</h1>
+        <p className="section__description">
+          As a full-stack developer, I have expertise in MERN stack, Django, Next.js, and Python. I am skilled in Data Structures and Algorithms using C++ and passionate about AI/ML, utilizing tools like PyTorch, scikit-learn, and TensorFlow to build intelligent applications.
+        </p>
         <div className="exp-details-container">
           <div className="about-containers">
             <div className="details-containers">
@@ -27,7 +30,6 @@ export const Experience = () => {
               </div>
             </div>
 
-        
             <div className="details-containers">
               <h2 className="exp-sub-title">AI & ML</h2>
               <div
