@@ -8,11 +8,11 @@ export const Experience = () => {
     <>
       <section id="experience">
         <p className="section__text__p1">Explore My</p>
-        <h1 className="title">Experience</h1>
+        <h1 className="title">Skills</h1>
         <div className="exp-details-container">
           <div className="about-containers">
             <div className="details-containers">
-              <h2 className="exp-sub-title">Frontend Development</h2>
+              <h2 className="exp-sub-title">Full-Stack Skills</h2>
               <div
                 className="article-container"
                 style={{ overflowY: "auto", maxHeight: "300px" }}
@@ -21,7 +21,6 @@ export const Experience = () => {
                   return (
                     <Skill
                       skillName={skill.skillName}
-                      level={skill.level}
                     ></Skill>
                   );
                 })}
@@ -30,7 +29,7 @@ export const Experience = () => {
 
         
             <div className="details-containers">
-              <h2 className="exp-sub-title">Backend Development</h2>
+              <h2 className="exp-sub-title">AI & ML</h2>
               <div
                 className="article-container"
                 style={{ overflowY: "auto", maxHeight: "300px" }}
@@ -39,7 +38,6 @@ export const Experience = () => {
                   return (
                     <Skill
                       skillName={skill.skillName}
-                      level={skill.level}
                     ></Skill>
                   );
                 })}

@@ -1,66 +1,99 @@
 const frontendSkills = [
   {
     skillName: "HTML",
-    level: "Experienced",
   },
   {
     skillName: "CSS",
-    level: "Experienced",
-  },
-  {
-    skillName: "REACT",
-    level: "Experienced",
-  },
-  {
-    skillName: "BootStrap",
-    level: "Experienced",
   },
   {
     skillName: "JavaScript",
-    level: "Experienced",
+  },
+  {
+    skillName: "React",
+  },
+  {
+    skillName: "NEXT.js",
+  },
+  {
+    skillName: "Node.js",
+  },
+  {
+    skillName: "Express.js",
+  },
+  {
+    skillName: "MongoDB",
+  },
+  {
+    skillName: "Bootstrap",
+  },
+  {
+    skillName: "Tailwind CSS",
   },
   {
     skillName: "Material UI",
-    level: "Intermediate",
   },
   {
-    skillName: "Chakra UI",
-    level: "Intermediate",
+    skillName: "Django",
   },
   {
-    skillName: "TailWind CSS",
-    level: "Intermediate",
+    skillName: "Python",
   },
+  {
+    skillName: "Git",
+  },
+  {
+    skillName: "Version Control",
+  },
+  {
+    skillName: "SQL",
+  },
+  {
+    skillName: "AWS",
+  }, 
 ];
 
 const backendSkills = [
   {
-    skillName: "JavaScript",
-    level: "Experienced",
+    skillName: "Pandas",
   },
   {
-    skillName: "Node JS",
-    level: "Experienced",
+    skillName: "NumPy",
   },
   {
-    skillName: "Express",
-    level: "Experienced",
+    skillName: "Matplotlib",
   },
   {
-    skillName: "AWS",
-    level: "Intermediate",
+    skillName: "Seaborn",
   },
   {
-    skillName: "MONGO DB",
-    level: "Experienced",
+    skillName: "Plotly",
   },
   {
     skillName: "SQL",
-    level: "Experienced",
   },
   {
-    skillName: "REACT",
-    level: "Experienced",
+    skillName: "Jupyter Notebook",
+  },
+  {
+    skillName: "PyTorch",
+  },
+  {
+    skillName: "Kaggle",
+  },
+  {
+    skillName: "Google Colab",
+  },
+  {
+    skillName: "Hugging Face",
+  },
+  {
+    skillName: "LangChain",
+  },
+  {
+    skillName: "scikit-learn",
+  },
+  {
+    skillName: "SciPy",
   },
 ];
 
