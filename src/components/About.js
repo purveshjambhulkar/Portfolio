@@ -36,16 +36,13 @@ export const About = () => {
                 />
                 <h3>Relevant Courses</h3>
                 <p>
-                  Data Structures, Algorithms, Web Development, Database
-                  Management Systems
+                  Data Structures, Algorithms, Web Development, Database Management Systems, Operating Systems, Computer Networks, Object-Oriented Programming, Cloud Computing, Artificial Intelligence, Machine Learning.
                 </p>
               </div>
             </div>
             <div className="text-container">
               <p>
-                Aspiring Software Engineer with a strong foundation in
-                full-stack development, seeking entry-level software engineering
-                roles.
+                Full-stack developer with hands-on experience in MERN stack, Django, and Python. I have a strong foundation in data structures, algorithms, and software engineering principles, and I’m eager to leverage my skills to build innovative solutions and grow in a software engineering role.
               </p>
             </div>
           </div>
