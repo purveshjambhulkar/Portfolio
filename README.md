@@ -12,6 +12,7 @@ A responsive portfolio website built with React.js, showcasing projects and skil
 - HTML5
 - CSS3
 - JavaScript
+- Docker
 
 ## 🌟 Features
 
@@ -19,3 +20,48 @@ A responsive portfolio website built with React.js, showcasing projects and skil
 - Dynamic project showcase
 - Smooth scrolling and animations
 - Skills section
+
+## 🐳 Run with Docker
+
+You can pull and run this project directly using Docker:
+
+### Pull the Image
+
+```bash
+docker pull purveshjambhulkar/portfolio
+```
+
+### Run the Container
+
+```bash
+docker run -p 3000:3000 --name portfolio purveshjambhulkar/portfolio
+```
+
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📂 Project Structure
+
+```
+.
+├── public/
+├── src/
+├── Dockerfile
+├── package.json
+└── README.md
+```
+
+## 📦 Build Manually (Optional)
+
+If you'd like to build the image yourself:
+
+```bash
+docker build -t purveshjambhulkar/portfolio .
+```
+
+---
+
+## 🔗 Docker Hub
+
+[View on Docker Hub](https://hub.docker.com/r/purveshjambhulkar/portfolio)
